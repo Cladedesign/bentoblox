@@ -1,2 +1,6 @@
 @import "reset.css";
 @import "variables.css";
+
+@import "modules/footer.css";
+@import "modules/nav.css";
+@import "modules/team.css";
