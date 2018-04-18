@@ -1,0 +1,54 @@
+.hero {
+  min-height: 100vh;
+  position: relative;
+}
+
+.toggles {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.toggle {
+  margin: 16px;
+  padding: 0;
+  float: left;
+  clear: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.toggle svg {
+  height: 40px;
+  width: 40px;
+  fill: var(--secondary);
+}
+
+.hero__main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero__image {
+  height: 80vh;
+  width: 60%;
+  max-width: 740px;
+  background-image: url('images/phone--day.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero__down {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero__down svg {
+  height: 25px;
+  width: 66px;
+  fill: var(--secondary);
+}

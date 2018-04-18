@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 899px) {
+@media (max-width: 999px) {
   .merches {
     flex-direction: column;
   }
@@ -15,12 +15,12 @@
 .merch {
   text-align: center;
 }
-@media (max-width: 899px) {
+@media (max-width: 999px) {
   .merch:not(:last-child) {
     margin-bottom: 80px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .merch {
     width: 40%;
   }

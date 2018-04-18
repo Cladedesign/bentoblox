@@ -11,22 +11,10 @@ body {
   color: var(--primary);
 }
 
-body.night {
-  background-color: var(--night-primary);
-}
-.night .background-color--primary {
-  background-color: var(--night-primary);
-  color: var(--night-secondary);
-}
-.night .background-color--secondary {
-  background-color: var(--night-secondary);
-  color: var(--night-primary);
-}
-
 body,
 .background-color--primary,
 .background-color--secondary {
-  transition-duration: .25s;
+  transition-duration: .1s;
   transition-property: background-color, color;
   transition-timing-function: ease-in-out;
 }

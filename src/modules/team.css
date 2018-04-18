@@ -7,7 +7,7 @@
   justify-content: space-around;
   border-bottom: 3px solid var(--primary);
 }
-@media (max-width: 899px) {
+@media (max-width: 999px) {
   .members {
     flex-direction: column;
   }
@@ -16,12 +16,12 @@
 .member {
   text-align: center;
 }
-@media (max-width: 899px) {
+@media (max-width: 999px) {
   .member:not(:last-child) {
     margin-bottom: 80px;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .member {
     width: 30%;
   }
