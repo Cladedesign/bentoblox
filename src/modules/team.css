@@ -1,0 +1,64 @@
+.members {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 160px;
+  padding-bottom: 145px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 3px solid var(--primary);
+}
+@media (max-width: 899px) {
+  .members {
+    flex-direction: column;
+  }
+}
+
+.member {
+  text-align: center;
+}
+@media (max-width: 899px) {
+  .member:not(:last-child) {
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 900px) {
+  .member {
+    width: 30%;
+  }
+}
+
+.member__portrait {
+  margin-bottom: 48px;
+  display: inline-block;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  background-size: 100%;
+}
+.member--logan .member__portrait {
+  background-image: url('images/logan--day.png');
+}
+.member--matt .member__portrait {
+  background-image: url('images/matt--day.png');
+}
+.member--kevin .member__portrait {
+  background-image: url('images/kevin--day.png');
+}
+
+.member__name span {
+  margin-bottom: 6px;
+  display: block;
+}
+
+.member__socials {
+  display: flex;
+  justify-content: center;
+}
+
+.member__social svg {
+  margin: 18px;
+  height: 35px;
+  width: 35px;
+  fill: var(--primary);
+}
