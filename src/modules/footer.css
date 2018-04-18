@@ -1,0 +1,13 @@
+.footer {
+  margin-right: 5%;
+  margin-left: 5%;
+  max-width: 1240px;
+  border-top: 3px solid var(--primary);
+  text-align: center;
+}
+
+.footer__link {
+  margin: 50px;
+  display: inline-block;
+  fill: var(--primary);
+}

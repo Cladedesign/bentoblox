@@ -1,0 +1,33 @@
+body {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 20px;
+  background-color: var(--primary);
+}
+.background-color--primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.background-color--secondary {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+body.night {
+  background-color: var(--night-primary);
+}
+.night .background-color--primary {
+  background-color: var(--night-primary);
+  color: var(--night-secondary);
+}
+.night .background-color--secondary {
+  background-color: var(--night-secondary);
+  color: var(--night-primary);
+}
+
+body,
+.background-color--primary,
+.background-color--secondary {
+  transition-duration: .25s;
+  transition-property: background-color, color;
+  transition-timing-function: ease-in-out;
+}
