@@ -36,28 +36,47 @@
         </symbol>
       </defs>
     </svg>
-    <div class="background-color--primary">
+    <div class="hero background-color--primary">
       <nav class="nav">
         <a class="nav__link t-small" href="#team">Team</a>
         <a class="nav__link t-small" href="#merch">Merch</a>
       </nav>
-      <button class="toggle" id="day">
-        <svg><use xlink:href="#day"></svg>
-        <span class="t-hidden">Day</span>
-      </button>
-      <button class="toggle" id="night">
-        <svg><use xlink:href="#night"></svg>
-        <span class="t-hidden">Night</span>
-      </button>
-      <h1 class="t-big">BentoBlox</h1>
-      <p>Howdy! Welcome to BentoBlox - our pleasant interpretation of the classic Japanese logic puzzle game. Please enjoy the sights and sounds while you’re here.</p>
-      <a href="" target="_blank">Download on the App Store</a>
-      <a href="#down">
+      <div class="toggles">
+        <button class="toggle" id="js-day">
+          <svg><use xlink:href="#day"></svg>
+          <span class="t-hidden">Day</span>
+        </button>
+        <button class="toggle" id="js-night">
+          <svg><use xlink:href="#night"></svg>
+          <span class="t-hidden">Night</span>
+        </button>
+      </div>
+      <div class="hero__main">
+        <div class="hero__text">
+          <h1 class="t-big">BentoBlox</h1>
+          <p>Howdy! Welcome to BentoBlox - our pleasant interpretation of the classic Japanese logic puzzle game. Please enjoy the sights and sounds while you’re here.</p>
+          <a href="" target="_blank">Download on the App Store</a>
+        </div>
+        <div class="hero__image"></div>
+      </div>
+      <a class="hero__down" href="#scroll">
         <svg><use xlink:href="#down"></svg>
         <span class="t-hidden">Down</span>
       </a>
     </div>
-    <div class="background-color--secondary">
+    <div id="scroll" class="background-color--secondary">
+      <ul class="merches">
+        <li class="merch">
+          <img class="merch__image" src="images/pin.png" alt="BentoBlox Hard Enamel Pin">
+          <h3 class="t-medium">Hard Enamel Pin</h3>
+          <span class="t-small">$10.00</span>
+        </li>
+        <li class="merch">
+          <img class="merch__image" src="images/shirt.png" alt="BentoBlox Shirt">
+          <h3 class="t-medium">Shirt</h3>
+          <span class="t-small">$20.00</span>
+        </li>
+      </ul>
     </div>
     <div id="merch" class="background-color--primary">
       <h2 class="t-hidden">Merch</h2>
@@ -78,7 +97,7 @@
       <span class="t-hidden">Team</span>
       <ul class="members">
         <li class="member member--logan">
-          <div class="member__portrait"></div>
+          <div id="js-logan" class="member__portrait"></div>
           <h3 class="member__name t-medium">
             <span>Logan</span>
             <span>Faerber</span>
@@ -112,7 +131,7 @@
           </ul>
         </li>
         <li class="member member--matt">
-          <div class="member__portrait"></div>
+          <div id="js-matt" class="member__portrait"></div>
           <h3 class="member__name t-medium">
             <span>Matt</span>
             <span>Buckley</span>
@@ -134,7 +153,7 @@
           </ul>
         </li>
         <li class="member member--kevin">
-          <div class="member__portrait"></div>
+          <div id="js-kevin" class="member__portrait"></div>
           <h3 class="member__name t-medium">
             <span>Kevin</span>
             <span>Denicolo</span>
