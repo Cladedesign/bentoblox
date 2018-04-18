@@ -1,0 +1,33 @@
+.merches {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 100px;
+  padding-bottom: 115px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 899px) {
+  .merches {
+    flex-direction: column;
+  }
+}
+
+.merch {
+  text-align: center;
+}
+@media (max-width: 899px) {
+  .merch:not(:last-child) {
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 900px) {
+  .merch {
+    width: 40%;
+  }
+}
+
+.merch__image {
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 480px;
+}
