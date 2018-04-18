@@ -1,13 +1,17 @@
 .footer {
-  margin-right: 5%;
-  margin-left: 5%;
-  max-width: 1240px;
-  border-top: 3px solid var(--primary);
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
 .footer__link {
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: inline-block;
   fill: var(--primary);
+}
+
+.footer__link svg {
+  width: 100%;
+  max-width: 210px;
 }
