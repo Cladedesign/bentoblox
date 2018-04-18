@@ -6,3 +6,23 @@
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+.t-small {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.t-medium {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.t-big {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.36;
+  letter-spacing: 5px;
+}
