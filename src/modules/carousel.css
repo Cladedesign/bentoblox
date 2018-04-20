@@ -20,8 +20,17 @@
 .slick-dots {
   margin-right: 5%;
   margin-left: 5%;
-  margin-top: 100px;
   text-align: center;
+}
+@media (max-width: 999px) {
+  .slick-dots {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 1000px) {
+  .slick-dots {
+    margin-top: 100px;
+  }
 }
 
 .slick-dots li {
