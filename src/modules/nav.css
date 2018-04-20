@@ -1,16 +1,12 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  @media (max-width: 999px) {
-    padding-right: 16px;
-  }
-  @media (min-width: 1000px) {
-    padding-right: 84px;
-  }
 }
 
 .nav__link {
-  padding: 42px 16px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  margin-left: 32px;
   text-decoration: none;
   text-transform: uppercase;
   color: currentColor;
