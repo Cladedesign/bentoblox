@@ -2,6 +2,7 @@
 @import "variables.css";
 @import "type.css";
 
+@import "modules/carousel.css";
 @import "modules/footer.css";
 @import "modules/hero.css";
 @import "modules/main.css";

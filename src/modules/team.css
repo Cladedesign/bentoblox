@@ -37,13 +37,13 @@
   background-size: 100%;
 }
 .member--logan .member__portrait {
-  background-image: url('images/logan--day.png');
+  background-image: url('images/logan--day.svg');
 }
 .member--matt .member__portrait {
-  background-image: url('images/matt--day.png');
+  background-image: url('images/matt--day.svg');
 }
 .member--kevin .member__portrait {
-  background-image: url('images/kevin--day.png');
+  background-image: url('images/kevin--day.svg');
 }
 
 .member__name span {
