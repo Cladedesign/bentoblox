@@ -1,23 +1,62 @@
 .hero {
+  padding-right: 5%;
+  padding-left: 5%;
   min-height: 100vh;
   position: relative;
+}
+@media (min-width: 1000px) {
+  .hero {
+    background-image: url('images/phone--day.png');
+    background-size: 740px 600px;
+    background-repeat: no-repeat;
+    background-position: calc(10vw + 400px) center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero__text {
+    width: 33vw;
+    max-width: 400px;
+  }
 }
 
 .toggles {
   position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+}
+@media (max-width: 1399px) {
+  .toggles {
+    bottom: 100px;
+    width: 90%;
+    text-align: center;
+  }
+}
+@media (min-width: 1400px) {
+  .toggles {
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .toggle {
-  margin: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   padding: 0;
-  float: left;
-  clear: left;
   border: none;
   background-color: transparent;
   cursor: pointer;
+}
+@media (max-width: 1399px) {
+  .toggle {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+@media (min-width: 1400px) {
+  .toggle {
+    float: left;
+    clear: left;
+  }
 }
 
 .toggle svg {
@@ -26,18 +65,10 @@
   fill: var(--secondary);
 }
 
-.hero__main {
-  display: flex;
-  justify-content: space-around;
-}
-
-.hero__image {
-  height: 80vh;
-  width: 60%;
-  max-width: 740px;
-  background-image: url('images/phone--day.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
+.hero__download {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  display: inline-block;
 }
 
 .hero__down {
