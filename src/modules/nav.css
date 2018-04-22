@@ -1,6 +1,9 @@
 .nav {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 5%;
 }
 
 .nav__link {
