@@ -2,6 +2,7 @@ window.onload = function() {
   document.getElementById('js-day').onclick = function() {
     document.documentElement.style.setProperty('--primary', '#1eb7da');
     document.documentElement.style.setProperty('--secondary', '#fff7dd');
+    document.getElementById('js-hero').style.backgroundImage = 'url(images/phone--day.png)';
     document.getElementById('js-logan').style.backgroundImage = 'url(images/logan--day.svg)';
     document.getElementById('js-matt').style.backgroundImage = 'url(images/matt--day.svg)';
     document.getElementById('js-kevin').style.backgroundImage = 'url(images/kevin--day.svg)';
@@ -18,6 +19,7 @@ window.onload = function() {
   document.getElementById('js-night').onclick = function() {
     document.documentElement.style.setProperty('--primary', '#fdc82e');
     document.documentElement.style.setProperty('--secondary', '#2a0a31');
+    document.getElementById('js-hero').style.backgroundImage = 'url(images/phone--night.png)';
     document.getElementById('js-logan').style.backgroundImage = 'url(images/logan--night.svg)';
     document.getElementById('js-matt').style.backgroundImage = 'url(images/matt--night.svg)';
     document.getElementById('js-kevin').style.backgroundImage = 'url(images/kevin--night.svg)';

@@ -1,6 +1,9 @@
 .hero {
   padding-right: 5%;
   padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
   position: relative;
 }
@@ -13,6 +16,9 @@
   }
 }
 
+.hero__text {
+  padding-top: 200px;
+}
 @media (min-width: 1000px) {
   .hero__text {
     width: 33vw;
@@ -76,6 +82,19 @@
   bottom: 28px;
   left: 50%;
   transform: translateX(-50%);
+  animation: bounce 6s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 33%, 45%, 100% {
+    bottom: 28px;
+  }
+  28% {
+    bottom: 36px;
+  }
+  42% {
+    bottom: 35px;
+  }
 }
 
 .hero__down svg {
