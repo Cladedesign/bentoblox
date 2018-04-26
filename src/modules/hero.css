@@ -7,6 +7,11 @@
   min-height: 100vh;
   position: relative;
 }
+@media (max-width: 999px) {
+  .hero {
+    background-image: none !important;
+  }
+}
 @media (min-width: 1000px) {
   .hero {
     background-image: url('images/phone--day.png');
